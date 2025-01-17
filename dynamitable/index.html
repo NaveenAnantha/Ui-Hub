@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="../../Bootstrap/bootstrap-5.3.3-dist/css/bootstrap.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">    <style>
         table {
-            width: 100%;
+            width: 80%;
             border-collapse: collapse;
             margin: auto;
             margin-top: 10px;
+            padding-left: 10px;
         }
         body{
             margin: 0px;
@@ -41,12 +42,18 @@
             margin: 0px !important; 
             margin-top: 10px;
         }
+        .container{
+            margin: 0px;
+        }
+        
     </style>
 </head>
 
 <body>
     <div class="container">
-        <h2 class="col-12">Dynamic Data Adding Through an Array</h2>
+        <div class="row col-12 mb-0">
+            <h2 class=" mt-2 ">Dynamic Data Adding Through an Array</h2>
+        </div>
         <button type="button" id="btn" class="btn btn-primary mt-3" data-bs-toggle="modal"
             data-bs-target="#exampleModal">
             Please Select Lentgh in meter
@@ -123,8 +130,10 @@
             </div>
         </div>
     </div>
-    <div class="container">
-        <div id="table-container" class="mt-3"></div>
+    <div class="container-fluid justify-content-center">
+      <div class="row col-12">
+        <div id="table-container" class="mt-2 "></div>
+      </div>
     </div>
     <script>
 
