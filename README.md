@@ -5,7 +5,8 @@ Each task demonstrates a specific technique or approach, ranging from crafting b
 
 
 
-Visit the site for arithmeticoperations-https://naveenanantha.github.io/Ui-Hub/arithmeticoperations/index.html
+**Click to Visit  arithmeticoperations**-https://naveenanantha.github.io/Ui-Hub/arithmeticoperations/index.html
 
-Visit the site for DynamiTable-https://naveenanantha.github.io/Ui-Hub/dynamitable/index.html
+**Click to Visit  DynamiTable**-https://naveenanantha.github.io/Ui-Hub/dynamitable/index.html
 
+**Click to Visit static-ui-design**:https://naveenanantha.github.io/Ui-Hub/static-ui-design/index.html
