@@ -33,60 +33,6 @@
       <h2>Result: <span id="current-result">0</span></h2>
     </section>
 
-    <script >
-      const userInput1 = document.getElementById('input-number1');
-console.log(userInput1.value);
-console.log(typeof(userInput1));
-
-
-const userInput2=document.getElementById('input-number2');
-
-const addBtn = document.getElementById('btn-add');
-const subtractBtn = document.getElementById('btn-subtract');
-const multiplyBtn = document.getElementById('btn-multiply');
-const divideBtn = document.getElementById('btn-divide');
-
-const currentResultOutput = document.getElementById('current-result');
-const currentCalculationOutput = document.getElementById('current-calculation');
-
-// function outputResult(result, text) {
-//   currentResultOutput.textContent = result;
-//   currentCalculationOutput.textContent = text;
-// }
-addBtn.addEventListener("click",()=>{
-  
-  console.log("triggered");
-  console.log(userInput1.value);
-  
-  let result=Number(userInput1.value)+Number(userInput2.value)
-  currentResultOutput.innerHTML=result;
-  currentCalculationOutput.innerHTML=`${Number(userInput1.value)}+${Number(userInput2.value)}`;
-})
-subtractBtn.addEventListener("click",()=>{
-  
-
-  
-  let result=Number(userInput1.value)-Number(userInput2.value)
-  currentResultOutput.innerHTML=result;
-  currentCalculationOutput.innerHTML=`${Number(userInput1.value)}-${Number(userInput2.value)}`;
-})
-multiplyBtn.addEventListener("click",()=>{
-  
-  
-  
-  let result=Number(userInput1.value)*Number(userInput2.value)
-  currentResultOutput.innerHTML=result;
-  currentCalculationOutput.innerHTML=`${Number(userInput1.value)}*${Number(userInput2.value)}`;
-})
-divideBtn.addEventListener("click",()=>{
-  
- 
-  
-  let result=Number(userInput1.value)/Number(userInput2.value)
-  currentResultOutput.innerHTML=result;
-  currentCalculationOutput.innerHTML=`${Number(userInput1.value)}/${Number(userInput2.value)}`;
-})
-
-    </script>
+    <script src="assets/vendor.js"></script>
   </body>
 </html>
