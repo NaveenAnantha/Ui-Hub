@@ -14,6 +14,10 @@ body{
     overflow-x: hidden;
     overflow-y: auto;
 }
+/*To hide the Search Lable  */
+.serachbar{
+    display: none;
+}
 .part1{
     width: auto;
     height: auto;
