@@ -68,19 +68,31 @@
     <div class="part1">
         <div class="head">
             <header class="websiteheader">
-                <nav class="nav">
-                    <div id="logo">
-                        <img src="assets/favicon.png" alt="The Website logo is Loading">
-                    </div>
-                    <div class="navbar1">
-                        <ul class="headtools" >
-                            <li><a href="#" aria-label="Navigate to Explore Page" role="Navigation">Explore<i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
-                            <li><a href="#" aria-label="Navigate to Directory Page" role="Navigation">Directory</a></li>
-                            <li><a href="#" role="Navigation" aria-label="Navigate to Academy" >Academy</a></li>
-                            <li><a href="#" role="Navigation" aria-label="Navigate to Conferences">Conferences <span>2</span></a></li>
-                            <li><a href="#" role="Navigation" aria-label="Navigate to Market">Market</a></li>
-                        </ul>
-                    </div>
+              <nav class="nav" role="navigation" aria-label="Main Navigation">
+                  <div id="logo">
+                    <img src="assets/favicon.png" alt="Website Logo">
+                  </div>
+                  <div class="navbar1">
+                    <ul class="headtools">
+                      <li>
+                        <a href="#" aria-label="Explore Page">Explore
+                          <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" aria-label="Directory Page">Directory</a>
+                      </li>
+                      <li>
+                        <a href="#" aria-label="Academy Page">Academy</a>
+                      </li>
+                      <li>
+                        <a href="#" aria-label="Conferences Page">Conferences <span aria-label="2 unread notifications">2</span></a>
+                      </li>
+                      <li>
+                        <a href="#" aria-label="Market Page">Market</a>
+                      </li>
+                    </ul>
+                  </div>
                 </nav>
                 <div class="searchbar">
                     <i class="searchicon"><img src="assets/find.png" alt="Search Icon Loading"></i>
@@ -372,22 +384,24 @@
     <div class="uparrow">
         <a href="#" role="navigation" aria-label="Decorative button, no action" aria-disabled="true"><img src="assets/white_arrow.png" alt="Icon Loading"></a>
     </div> 
-    <footer class="footer">
+     <footer class="footer" role="contentinfo">
+      <nav aria-label="Footer Navigation">
         <div class="foot1">
-            <div class="wicon">
-                <a href="#"><img src="assets/wicon.png" alt="Loading"></a>
-            </div>
-            <ul class="foot">
-                    <li><a href="#" role="Navigation" aria-label="Navigate to Nominees">Nominees</a></li>
-                    <li><a href="#" role="Navigation" aria-label="Navigate to Courses">Courses</a></li>
-                    <li><a href="#" role="Navigation" aria-label="Navigate to Collections">Collections</a></li>
-                    <li><a href="#" role="Navigation" aria-label="Navigate to Directory">Directory</a></li>
-                    <li><a href="#" role="Navigation" aria-label="Navigate to Market">Market</a></li>              
-             </ul>
-            <div class="visit">
-                <a href="#" role="navigation" aria-label="Navigate to Visit Sotd">Visit Sotd</a>
-            </div>
+          <div class="wicon">
+            <a href="#"><img src="assets/wicon.png" alt="Website Icon"></a>
+          </div>
+          <ul class="foot">
+            <li><a href="#" aria-label="Nominees section">Nominees</a></li>
+            <li><a href="#" aria-label="Courses section">Courses</a></li>
+            <li><a href="#" aria-label="Collections section">Collections</a></li>
+            <li><a href="#" aria-label="Directory section">Directory</a></li>
+            <li><a href="#" aria-label="Market section">Market</a></li>
+          </ul>
+          <div class="visit">
+            <a href="#" aria-label="Visit Site of the Day">Visit Sotd</a>
+          </div>
         </div>
-     </footer>
+      </nav>
+    </footer>
 </body>
 </html>
