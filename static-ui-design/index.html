@@ -2,13 +2,67 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Awwwards - Website Awwwards - Best Web Design Trends</title>
+   
+    <!-- Title -->
+    <title>Awwwards Winning Website | Best UI Practices & Frontend Showcase</title>
+
+    <!-- Meta Description -->
+    <meta name="description" content="Discover the ultimate showcase of HTML and CSS expertise with our feel-good, award-winning website. Built with the best UI practices, designed to inspire with clean, responsive, and elegant front-end development." />
+    
+    <!-- Meta Keywords -->
+    <meta name="keywords" content="HTML CSS website, best UI practices, award-winning website, front-end showcase, responsive design, feel-good website, elegant UI, desktop website, web development inspiration" />
+    
+    <!-- Author -->
+    <meta name="NaveenAnantha" content="Static-Ui-design" />
+    
+    <!-- Viewport for Responsive Design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Robots -->
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Awwwards Winning Website | Best UI Practices & Frontend Showcase" />
+    <meta property="og:description" content="Feel the elegance of award-winning HTML and CSS designs! Experience best UI practices and responsive layouts crafted for inspiration." />
+    <meta property="og:image" content="https://yourwebsite.com/og-image.jpg" /> <!-- Replace with your image URL -->
+    <meta property="og:url" content="https://yourwebsite.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#0d6efd" /> <!-- Replace with your website's primary color -->
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://yourwebsite.com" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://yourwebsite.com/favicon.png" /> <!-- Replace with your favicon URL -->
+
+
     <link rel="preload" href="https://assets.awwwards.com/assets/fonts/apercu/apercu-bold-pro.woff2" as="font" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,700">
     <link rel="icon" type="image/x.icon" href="assets/favicon.png">
-<!--     <link rel="stylesheet" href="assets/style/awwards.css"> -->
-     <link rel="stylesheet" href="style.css">
+    <!--     <link rel="stylesheet" href="assets/style/awwards.css"> -->
+    <link rel="stylesheet" href="style.css">
+
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "Awwwards Winning Website",
+          "url": "https://yourwebsite.com",
+          "description": "Discover the ultimate showcase of HTML and CSS expertise with award-winning UI designs. Built with the best front-end practices and feel-good aesthetics.",
+          "author": {
+            "@type": "Person",
+            "name": "Your Name"
+          },
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://yourwebsite.com/search?q={search_term}",
+            "query-input": "required name=search_term"
+          }
+        }
+    </script>
 </head>
 <body>
     <div class="part1">
@@ -20,11 +74,11 @@
                     </div>
                     <div class="navbar1">
                         <ul class="headtools">
-                            <li><a href="#" aria-label="Navigate to Explore Page" role="button">Explore<i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
-                            <li><a href="#" aria-label="Navigate to Directory Page" role="button">Directory</a></li>
-                            <li><a href="#" role="button" aria-label="Navigate to Academy" >Academy</a></li>
-                            <li><a href="#" role="button" aria-label="Navigate to Conferences">Conferences <span>2</span></a></li>
-                            <li><a href="#" role="button" aria-label="Navigate to Market">Market</a></li>
+                            <li><a href="#" aria-label="Navigate to Explore Page" role="navigation">Explore<i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+                            <li><a href="#" aria-label="Navigate to Directory Page" role="navigation">Directory</a></li>
+                            <li><a href="#" role="navigation" aria-label="Navigate to Academy" >Academy</a></li>
+                            <li><a href="#" role="navigation" aria-label="Navigate to Conferences">Conferences <span>2</span></a></li>
+                            <li><a href="#" role="navigation" aria-label="Navigate to Market">Market</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -37,10 +91,10 @@
                     <img src="assets/profile.jpg" alt="Profile is Loading">
                 </div>
                 <div class="bepro">
-                    <button class="btnbepro" type="button" role="button">Be Pro</button>
+                    <button class="btnbepro" type="button" aria-label="Decorative button, no action" aria-disabled="true">Be Pro</button>
                 </div>
                 <div class="submit">
-                    <button class="btnsubmit" type="button" role="button">Submit Website</button>
+                    <button class="btnsubmit" type="button" aria-label="Decorative button, no action" aria-disabled="true" >Submit Website</button>
                 </div>
             </header>
         </div>
@@ -69,13 +123,13 @@
                 </div>
                 <div class="profile 2">
                     <p>
-                        <img src="assets/nerisson.jpg" alt="Loading">
+                        <img src="assets/nerisson.jpg" alt="Nerrison Profile Loading">
                         <b>Nerrison</b><span class="pro">PRO</span>
                     </p>
                 </div>
                 <div class="profile 3">
                     <p class="antoni">
-                        <img src="assets/antoni.jpg" alt="Loading">
+                        <img src="assets/antoni.jpg" alt="Antoni Profile Loading">
                         <b>Antoine Wodniack</b><span class="pro">PRO</span>
                     </p>
                 </div>
@@ -83,7 +137,7 @@
             <!-- profiles section completed -->
                                                                         <!-- Middle node image  -->
             <div class="middileimage">
-                <img src="assets/middileimage.png" alt="Image Loading">
+                <img src="assets/middileimage.png" alt="Hero Loading">
             </div>
             <div class="elements">
                 <p>Elements</p>
@@ -96,7 +150,7 @@
                 <div class="navigation">
                     
                     <div class="navvideo">
-                        <button>Video</button>
+                        <button type="button" aria-label="Decorative button, no action" aria-disabled="true">Video</button>
                         <video src="assets/navigation.mp4"  aria-label="Video Playing" type="video/mp4" autoplay loop muted   muted >
                             
                             Your browser does not support the video tag.
@@ -117,7 +171,7 @@
                 </div>
                 <div class="interaction">
                     <div class="interavideo">
-                        <button>Video</button>
+                        <button type="button" aria-label="Decorative button, no action" aria-disabled="true">Video</button>
                         <video src="assets/Intera.mp4"  aria-label="Video Playing" type="video/mp4"  autoplay loop muted   muted >
                             
                             Your browser does not support the video tag.
@@ -152,7 +206,7 @@
                 <div class="navigation">
                     
                     <div class="navvideo">
-                        <button>Video</button>
+                        <button type="button" aria-label="Decorative button, no action" aria-disabled="true">Video</button>
                         <video src="assets/team.mp4" aria-label="Video Playing" type="video/mp4" autoplay loop muted  >
                             
                             Your browser does not support the video tag.
@@ -173,7 +227,7 @@
                 </div>
                 <div class="interaction">
                     <div class="interavideo">
-                        <button>Video</button>
+                        <button type="button" aria-label="Decorative button, no action" aria-disabled="true">Video</button>
                         <video src="assets/teamside.mp4"  aria-label="Video Playing" type="video/mp4" autoplay loop muted  >
                             Your browser does not support the video tag.
                         </video>
@@ -206,7 +260,7 @@
             <div class="navigation">
                 
                 <div class="navvideo">
-                    <button>Video</button>
+                    <button type="button" aria-label="Decorative button, no action" aria-disabled="true">Video</button>
                     <video  src="assets/error404.mp4" aria-label="Video Playing" type="video/mp4" autoplay loop muted  >
                         Your browser does not support the video tag.
                     </video>
@@ -226,7 +280,7 @@
             </div>
             <div class="interaction">
                 <div class="interavideo">
-                    <button>Video</button>
+                    <button type="button" aria-label="Decorative button, no action" aria-disabled="true">Video</button>
                     <video src="assets/Transition.mp4"  aria-label="Video Playing" type="video/mp4" autoplay loop muted  >
                        
                         Your browser does not support the video tag.
@@ -259,8 +313,8 @@
         
         <div class="hero">
             <div class="herovideo">
-                <button role="button" type="button">3 <img src="assets/tabs_white.png" alt="Loading"></button>
-                <button type="button" role="click">Video</button>
+                <button  type="button" aria-label="Decorative button, no action" aria-disabled="true">3 <img src="assets/tabs_white.png" alt="Loading"></button>
+                <button type="button" aria-label="Decorative button, no action" aria-disabled="true">Video</button>
                     <div>
                         <video  src="assets/10weeks.mp4" aria-label="Video Playing" type="video/mp4" autoplay loop muted  >
                            
@@ -316,7 +370,7 @@
     <!-- Footer Creation -->  
                                          <!-- Footer Creation -->
     <div class="uparrow">
-        <a href="#"><img src="assets/white_arrow.png" alt="Icon Loading"></a>
+        <a href="#" role="navigation" aria-label="Decorative button, no action" aria-disabled="true"><img src="assets/white_arrow.png" alt="Icon Loading"></a>
     </div> 
     <footer class="footer">
         <div class="foot1">
@@ -324,14 +378,14 @@
                 <a href="#"><img src="assets/wicon.png" alt="Loading"></a>
             </div>
             <ul class="foot">
-                    <li><a href="#" role="button" aria-label="Navigate to Nominees">Nominees</a></li>
-                    <li><a href="#" role="button" aria-label="Navigate to Courses">Courses</a></li>
-                    <li><a href="#" role="button" aria-label="Navigate to Collections">Collections</a></li>
-                    <li><a href="#" role="button" aria-label="Navigate to Directory">Directory</a></li>
-                    <li><a href="#" role="button" aria-label="Navigate to Market">Market</a></li>              
+                    <li><a href="#" role="navigation" aria-label="Navigate to Nominees">Nominees</a></li>
+                    <li><a href="#" role="navigation" aria-label="Navigate to Courses">Courses</a></li>
+                    <li><a href="#" role="navigation" aria-label="Navigate to Collections">Collections</a></li>
+                    <li><a href="#" role="navigation" aria-label="Navigate to Directory">Directory</a></li>
+                    <li><a href="#" role="navigation" aria-label="Navigate to Market">Market</a></li>              
              </ul>
             <div class="visit">
-                <a href="#" role="button" aria-label="Navigate to Visit Sotd">Visit Sotd</a>
+                <a href="#" role="navigation" aria-label="Navigate to Visit Sotd">Visit Sotd</a>
             </div>
         </div>
      </footer>
