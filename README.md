@@ -10,3 +10,5 @@ Each task demonstrates a specific technique or approach, ranging from crafting b
 **Click to Visit  DynamiTable**-https://naveenanantha.github.io/Ui-Hub/dynamitable/index.html
 
 **Click to Visit static-ui-design**:https://naveenanantha.github.io/Ui-Hub/static-ui-design/index.html
+
+**Click to Visit DynamicTable-SearchFiltering-Pagenation**:https://naveenanantha.github.io/Ui-Hub/Dynamic-Table-Search-Filter-Pagination/index.html
